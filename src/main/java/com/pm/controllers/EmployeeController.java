@@ -82,7 +82,7 @@ public class EmployeeController {
 
 		empservice.delete(theEmp);
 
-		return "redirect:/employees";
+		return "redirect:/listemployee";
 
 	}
 
